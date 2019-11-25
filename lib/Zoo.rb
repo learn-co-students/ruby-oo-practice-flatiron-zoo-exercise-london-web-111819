@@ -12,7 +12,7 @@ class Zoo
     def self.all
         @@all
     end
-    
+
     def self.find_by_location(location)
         Zoo.all.select{|zoo| zoo.location == location}
     end
